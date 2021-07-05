@@ -1,7 +1,7 @@
-# C progarm simulation of Covid19 like epidemic 
+# C program simulation of Covid19 like epidemic 
 
 From a population of maximum 10000 people with atmost 3000 connections (implemented using directed graph), randomly selected people are first infected with the disease.\ 
-Then using probability we compute the number of days after which its neighbours will get infected (provided they are susceptible to disease) and number of days after which infected people will recover.\
+Then using probability we compute the number of days after which its neighbours will get infected (provided they are susceptible to disease) and number of days after which infected people will recover.
 Once recovered, a person is not susceptible anymore.
 
 Separate linked lists for suspected, infected and recovered people are maintained.\
